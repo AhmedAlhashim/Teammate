@@ -1,0 +1,1127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hidden {
+    display: none;
+  }
+  
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EBEFFF;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+main{
+    margin: 0 7%;
+}
+
+.divider{
+    border: dotted 0.8rem;
+    border-top: none;
+    width: 7%;
+    margin: 30px auto;
+    opacity: .1;
+}
+
+a{
+    cursor: pointer;
+}
+
+/* logo */
+.logoText{
+    color: #ffffff;
+}
+.logoEnd{
+    color:#DAB16B;
+}
+
+
+/* Buttons */
+
+/* Primary Btn  */
+.btn-primary{
+    background-color: #656ED3 !important;  
+    color: #fff;
+}
+.btn-primary:hover{
+    background-color: #535fdd !important;  
+    color: #fff;
+}
+.btn-primary:focus{
+    background-color: #656ED3 !important;  
+    color: #fff;
+}
+.btn-primary:visited{
+    background-color: #656ED3 !important;  
+    color: #fff;
+    opacity: 1;
+}
+
+/* secondary Btn  */
+.btn-secondary{
+    background-color: #9AD6D6 !important;  
+    color: black;
+}
+.btn-secondary:hover{
+    background-color: #7ac5c5 !important;  
+    color: black;
+}
+.btn-secondary:focus{
+    background-color: #9AD6D6 !important;  
+    color: black;
+}
+.btn-secondary:visited{
+    background-color: #9AD6D6 !important;  
+    opacity: 1;
+}
+
+/* Danger Btn  */
+.btn-danger{
+    background-color: #CF4951 !important;  
+    color: #fff;
+}
+.btn-danger:hover{
+    background-color: #b83740 !important;  
+    color: #fff;
+}
+.btn-danger:focus{
+    background-color: #CF4951 !important;  
+    color: #fff;
+}
+.btn-danger:visited{
+    background-color: #CF4951 !important;  
+    opacity: 1;
+}
+
+
+/* Navbar */
+.navbar{
+    background-color: #656ED3;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+
+/* Carousel */
+.carousel-home{
+    max-width: 1200px;
+
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    overflow: hidden;
+    aspect-ratio: 2/1;
+
+}
+
+.carousel-home img{
+    object-fit:cover;
+
+}
+
+.carousel-project{
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+
+}
+
+
+
+/* Cards */
+
+.row{
+    justify-content: center;
+}
+
+.card{
+    padding: 0;
+    width: 230px; 
+    height: 320px; 
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    transition: .1s;
+
+}
+.portfolio-card{
+    width: 75%;
+    height: 100%;
+}
+.portfolio-card-title {
+    margin-top: 5rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+.portfolio-card-text{
+    font-size: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+.portfolio-card-tag{
+    justify-content: space-evenly;
+    padding: 0 5rem;
+}
+.portfolio-editable-text:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+  }
+
+
+.card:hover{
+    transform: scale(1.04);
+    transition-timing-function: ease-in-out;
+}
+
+.img-container{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    margin: 0;
+}
+
+
+.card .card-text{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.card .card-title{
+    font-weight: 600;
+    color: #29245E;
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 1rem;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card-btn{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+.card-body{
+    width: 100%;
+}
+
+
+/* tags */
+
+.tags{
+    display: flex;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+.tag {
+    display: inline-block;
+    color: #656ED3;
+    opacity: 0.5;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.tag:hover{
+    opacity: 1;
+}
+
+
+
+/* Project Page  */
+.project{
+    display: flex;
+}
+
+.project-left-contaner{
+    width: 50%;
+    margin: 40px;
+}
+
+.project-right-contaner{
+    width: 35%;
+    text-align: center;
+    margin: 40px;
+}
+
+.project-right-contaner .btn{
+    width: 80%;
+}
+
+.p-text-container{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+.p-text-container h1{
+    color: #656ED3;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.p-text-container .p-text{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.project img{
+    width: 80%;
+    aspect-ratio: 1/1;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+.teammate-img{
+    width: 50px; 
+    position: relative; 
+    float: right; 
+    margin-top: auto;
+}
+
+.popupWindow{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.4) 5px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 1;
+    top:25%;
+    transition: .8s;
+    z-index: 5;
+}
+
+.hidePopupWindow{
+    top:-500px;
+    opacity: 0;
+}
+
+.popupWindow h3{
+    color: #29245E;
+    font-weight: 900;
+}
+
+.popupWindow input{
+    text-align: left;
+}
+
+.popupWindow img{
+    width: 100px;
+}
+
+.popup-message{
+    position: relative;
+    margin: auto;
+    top: -50px;
+    margin-bottom: 0;
+}
+
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -50px;
+}
+
+.sure-buttons-container{
+    position: relative;
+    top: -30px;
+}
+
+.applicationCard{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.applicationCard h3{
+    color: #29245E;
+    font-weight: 700;
+}
+
+.applicationCard p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#addProjectPopupWindow{
+    height: 550px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .project{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .project-left-contaner{
+        width: 90%;
+    }
+    
+    .project-right-contaner{
+        width: 70%;
+    }
+
+    .carousel-home{
+        display: none!important;
+    }
+
+  }
+
+
+/* My Project Page  */
+
+.main-buttons{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    text-align: center;
+    width: 200px;
+}
+.dropdown-menu .filter-options{
+    text-align: left;
+}
+
+.dropdown-menu .filter-options{
+    text-align: left;
+}
+
+textarea[name = projectDiscription]{
+    resize: none;
+}
+
+
+/* Settings */
+
+.settings-container{
+    background-color: #fff;
+    aspect-ratio : 2 / 1;
+    width: 700px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    margin-top: 90px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+
+
+.settings-img{
+    width: 20%;
+
+}
+
+.settings-header{
+    position: relative;
+
+    top: -50px;
+}
+
+.settings-body{
+    position: relative;
+    top: -25px;
+}
+
+.settings-btn{
+    width: 20%;
+    background-color: #656ED3;  
+}
+
+.settings-btn:hover{
+    background-color: #656ED3;  
+
+    opacity: .9;
+}
+
+.change-password-lnk{
+    color: #656ED3;
+}
+
+footer{
+
+    height: 70px;
+    background-color: #29245E;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+    margin-top: 100px;
+    color: #EBEFFF;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.2rem;    
+}
+
+
+
+
+/* search symbol */
+.searchSymbol{
+    width: 22px;
+}
+
+
+/* Registor Page  -------------------------------------------------- */
+
+
+.register-body{
+
+    min-height: 100dvh;
+    min-width: 100dvw;
+
+}
+
+/* -------------------------- navbar part  ------------------------ */
+
+#register-navbar {
+
+    position: absolute;
+
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+    background-color: #656ED3;
+    width: 100%;
+    height: 3.5rem;
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.11);
+
+}
+
+#register-navbar-logo {
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+/* #register-navbar-content {} */
+
+/* -------------------------- main part  ------------------------ */
+#register-main {
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+    display: flex;
+    column-gap: 5rem;
+
+    justify-content: space-between;
+}
+
+
+/* -------------------------- the left part  ------------------------ */
+
+#register-aside {
+    display: flex;
+    box-sizing: border-box;
+}
+
+#desktop-pic {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+
+#Rectangle7 {
+    position: absolute;
+    width: 635px;
+    height: 377px;
+
+    border-radius: 105.53px;
+
+
+    background: #AFB3FF;
+    transform: rotate(-90deg);
+}
+
+#Rectangle6 {
+    position: absolute;
+    width: 635px;
+    height: 370px;
+
+    border-radius: 105.53px;
+
+
+    background: #656ED3;
+    transform: rotate(-97.17deg);
+
+}
+
+
+/* -------------------------- the rigth part  ------------------------ */
+
+
+
+.container {
+    margin-top: 20vh;
+    margin-bottom: 25vh;
+
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 1rem;
+
+    z-index: 2;
+
+    /* position: absolute; */
+    /* margin-left: auto; */
+    margin-right: 10%; 
+
+    padding: 1rem;
+    border-radius: 30px;
+    /* Add a transparency to the background using rgba value */
+    background: rgb(250, 249, 246, 0.9);
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.2);
+    
+
+
+
+}
+
+#form-header {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.my-form {
+    max-width: 22rem;
+}
+
+#form-fields input {
+    margin-top: 4px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid #656ED3;
+    background-color: #EBEFFF;
+
+}
+
+#form-register-btn {
+    padding: 10px;
+    width: 100%;
+    border: #AFB3FF solid 1px;
+    border-radius: 1rem;
+    background-color: #656ED3;
+
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#i-have-account {
+    margin-left: 12%;
+}
+
+/* -------------------------------------------------------------- */
+
+#register-footer {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+
+
+    bottom: 0;
+    width: 100%;
+    /* height: ; */
+
+    /* Add a transparency to shadow */
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.11);
+
+}
+
+#register-a {
+    color: #000;
+    text-decoration: none;
+}
+
+#show-password {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#show-password-checkbox {
+
+    width: fit-content;
+    height: 22px;
+    width: 22px;
+    margin: 0 0 0 15px;
+    padding: 0 0 0 50px;
+    font-size: 15px;
+}
+
+#show-password-label {
+    color: gray;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 14px;
+    margin: 0;
+    padding: 3px 0 0px 5px;
+}
+
+/* register page waning boxes*/
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.warn_box {
+    color: #ffffff;
+    background-color: #FF8080;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 100%;
+}
+
+.info_box {
+    color: #ffffff;
+    background-color: #79CFE0;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 100%;
+}
+
+.success_box {
+    color: #ffffff;
+    background-color: #7DDF7C;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 100%;
+}
+
+/*  login page   ----------------------------- */
+.bodylogin{
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.my-formlogin {
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-width: none;
+	
+}
+#form-login-btn {
+	margin: 5px;
+    padding: 10px;
+    width: 100%;
+    border: #AFB3FF solid 1px;
+    border-radius: 1rem;
+    background-color: #656ED3;
+
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.as {
+	text-align: center;
+	padding: 30px;
+}
+
+.rectangle {
+	position: fixed;
+	width: 35%;
+	height: 100%;
+	background-color: #AFB3FF;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.pic1 img{
+    position: absolute;
+    right: 2%;
+	width: 50%;
+}
+
+.pic2 {
+	position: fixed;
+	width: 553px;
+	height: 130px;
+	left: -8%;
+	top: 75%;
+
+	background: #AFB3FF;
+	border-radius: 100px;
+	transform: rotate(320deg);
+}
+
+.containerLogin {
+	position: fixed;
+	margin: 15%;
+
+}
+
+.containerLogin form input {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 1rem;
+	border: 1px solid #656ED3;
+	font-size: 16px;
+	background-color: #EBEFFF;
+
+}
+
+
+.containerLogin form input[type="submit"] {
+	background-color: #656ED3;
+	color: #fff;
+	cursor: pointer;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	/* no underline */
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+/* portrait tablets, portrait iPad, landscape e-readers */
+@media screen and (max-width:1800px) {
+
+    .register-body {
+        display: block;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    #register-aside {
+        position: absolute;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .container {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 70%;
+        padding: 1rem;
+        border-radius: 30px;
+        /* Add a transparency to the background using rgba value */
+        background: rgb(250, 249, 246, 0.9);
+        /* Add a transparency to shadow */
+        box-shadow: 0 26px 42px rgba(0, 0, 0, 0.2);
+    }
+
+    .my-form {
+        width: 65%;
+        max-width: none;
+        margin: auto;
+    }
+
+    .container>* {
+        max-width: none;
+        margin: auto;
+    }
+
+    #i-have-account {
+
+        margin-left: auto;
+    }
+    .bodylogin {
+      		display: block;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+		margin: auto;
+		align-self: center;
+	}
+
+	.containerLogin {
+		position: relative;
+		grid-template-columns: 100%;
+		width: 700px;
+		padding: 1rem;
+		border-radius: 30px;
+		background: rgb(250, 249, 246, 0.9);
+		box-shadow: 0 26px 42px rgba(0, 0, 0, 0.2);
+		align-items: center;
+	}
+
+	.my-formlogin {
+		width: 80%;
+		max-width: none;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.containerLogin>* {
+		position: relative;
+		margin: auto;
+		padding: 10px;
+	}
+
+	.as {
+		text-align: center;
+		padding: 30px;
+	}
+
+}
+
+
+@media screen and (max-width: 400px)  {
+
+
+    #form-header{
+        font-size: 1.2rem;
+    }
+    #i-have-account {
+        font-size: 0.8rem;
+    }
+    .container{
+        width: 85%;
+    }
+
+    /* V trick for ios */
+    .register-body {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #register-main {
+        display: block;
+        justify-content: center;
+
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    #desktop-pic {
+		visibility: hidden;
+    }
+    .pic2 {
+		visibility: hidden;
+	}
+    .pic1 {
+        visibility: hidden;
+	}
+
+}
+
+/* Chat */
+
+
+.chat-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat-container {
+    background-color: #fff;
+    width: 30%;
+    margin-top: 40px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 900px; */
+
+}
+
+
+
+
+@media only screen and (max-width: 2000px) {
+    .chat-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .chat-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .chat-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .chat-container {
+        width: 80%;
+    }
+}
+
+
+
+.messages-container{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    aspect-ratio : 7 / 6;
+
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.chat-title-container{
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chat-title-container h3{
+    color: #29245E;
+    font-weight: 700;
+}
+
+.message-input{
+    width: 60%;
+}
+
+.chat-buttons-container{
+    margin-bottom: 50px;
+}
+
+.messgae-form-container{
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-input{
+    height: 70px;
+    width: 100%;
+}
+
+.chat-btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.chat-btn img{
+    position: relative;
+    right: 5px;
+    width: 40px;
+}
+
+.message-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.message{
+    width: fit-content;
+    margin: 30px 20px;
+    padding: 7px 15px;
+}
+
+.message-sender{
+    background-color: #d5deff;
+    padding-right: 50px;
+    margin-left: auto;
+}
+
+.message-receiver{
+    background-color: #EBEFFF;
+    padding-right: 50px;
+}
+/*find-users page*/
+.userCard{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.userCard h3{
+    color: #29245E;
+    font-weight: 700;
+}
+.userCard p{
+    font-size: 1rem;
+    font-weight: 700;
+}
